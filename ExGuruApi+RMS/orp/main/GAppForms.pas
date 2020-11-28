@@ -1,0 +1,47 @@
+unit GAppForms;
+
+interface
+
+const
+
+  ID_GURU_MAIN    = 10000;
+
+  ID_SKEW         = 1000;
+  ID_ORDER_LIST   = 1002;
+
+  ID_POSITION_LIST= 1003;
+  ID_ORDER        = 1004;
+  ID_VIRTUAL_TRADE= 1005;
+  ID_ORDERBOARD   = 1006;
+  ID_SYSTEM_ORDER = 1007;
+  ID_SINGLE_ORDERBOARD = 1010;
+
+  ID_ACNT_DEPOSIT = 1008;
+  ID_ACNT_PASSWORD = 1009;
+
+
+  ID_MINI_POSITION_LIST  = 1030;
+  ID_SHEEP_BUY    = 1031;
+  ID_VOL_INVESTOR = 1032;
+  ID_SHORT_HULT   = 1033;
+
+  ID_STOP_LIST    = 1040;
+
+  // 전략 화면..순서대로..정의한다.
+  ID_FUND_ORDERBOARD = 40001;
+  ID_SINGLE_FUND_ORDERBOARD = 40012;
+  ID_A50_TREDN       = 40002;
+  ID_A50_P2          = 40003;
+  ID_VOLTRADE        = 40004;
+
+  ID_FUND_MINI_POS   = 40010;
+  ID_MULTI_ACNT      = 40011;
+  ///
+
+  ID_RISK_MNGR       = 500001;
+
+  ID_SUMUL  = 90000;
+
+implementation
+
+end.

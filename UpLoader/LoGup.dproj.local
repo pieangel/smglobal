@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016-11-30 16:54:35.394.pas,C:\Users\Administrator\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\Administrator\Documents\RAD Studio\Projects\FTP\testFTP.pas</Transaction>
+    <Transaction>2016-11-30 16:54:35.394.dfm,C:\Users\Administrator\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\Administrator\Documents\RAD Studio\Projects\FTP\testFTP.dfm</Transaction>
+    <Transaction>2016-11-30 16:54:37.604.pas,C:\Users\Administrator\Documents\RAD Studio\Projects\Unit2.pas=C:\Users\Administrator\Documents\RAD Studio\Projects\FTP\Unit2.pas</Transaction>
+    <Transaction>2016-11-30 16:54:38.784.dproj,C:\Users\Administrator\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\Administrator\Documents\RAD Studio\Projects\FTP\Project1.dproj</Transaction>
+    <Transaction>2016-12-07 14:00:10.922.dproj,C:\Users\Administrator\Documents\RAD Studio\Projects\FTP\Project1.dproj=C:\Users\Administrator\Documents\RAD Studio\Projects\FTP\LoGup.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

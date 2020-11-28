@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\Users\Administrator\Desktop\Dropbox\src\KrApi\ocx\ESApiExpLib_TLB.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.pas,C:\Project\ExGuruApi_5\ocx\kr\ESApiExpLib_TLB.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.dproj,C:\Users\Administrator\Documents\RAD Studio\Projects\Package1.dproj=C:\Users\Administrator\Desktop\Dropbox\src\KrExApi\ocx\KrESForOcx.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.217,=C:\Project\ExGuruApi+RMS\ocx\kr\ModelSupport_KrESForOcx\default.txaPackage</Transaction>
+  </Transactions>
+</BorlandProject>

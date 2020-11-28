@@ -1,0 +1,44 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{554a4a7f-7456-4703-8bab-cc21f83c8906}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="..\Updater\Updater.dproj" />
+    <Projects Include="KrGuruApi.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="KrGuruApi">
+    <MSBuild Projects="KrGuruApi.dproj" Targets="" />
+  </Target>
+  <Target Name="KrGuruApi:Clean">
+    <MSBuild Projects="KrGuruApi.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="KrGuruApi:Make">
+    <MSBuild Projects="KrGuruApi.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Updater">
+    <MSBuild Projects="..\Updater\Updater.dproj" Targets="" />
+  </Target>
+  <Target Name="Updater:Clean">
+    <MSBuild Projects="..\Updater\Updater.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="Updater:Make">
+    <MSBuild Projects="..\Updater\Updater.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="KrGuruApi;Updater" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="KrGuruApi:Clean;Updater:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="KrGuruApi:Make;Updater:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>
